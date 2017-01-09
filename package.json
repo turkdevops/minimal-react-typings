@@ -1,8 +1,8 @@
 {
-  "name": "minimal-react-typings",
+  "name": "@types/react",
   "version": "1.0.0",
   "description": "",
-  "main": "index.d.js",
+  "main": "index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
