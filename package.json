@@ -1,0 +1,19 @@
+{
+  "name": "minimal-react-typings",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.d.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Clever/minimal-react-typings.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Clever/minimal-react-typings/issues"
+  },
+  "homepage": "https://github.com/Clever/minimal-react-typings#readme"
+}
