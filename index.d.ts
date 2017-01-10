@@ -8,7 +8,9 @@ export as namespace React;
 declare namespace React {
   export class Component {
     state: any;
+    props: any;
     setState: Function;
     constructor(props: any);
   }
+  function createElement(...args:any[]) => any
 }
