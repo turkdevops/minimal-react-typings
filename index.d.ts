@@ -13,4 +13,5 @@ declare namespace React {
     constructor(props: any);
   }
   function createElement(...args:any[]): any;
+  var PropTypes : any;
 }
