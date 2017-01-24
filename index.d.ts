@@ -11,6 +11,7 @@ declare namespace React {
     props: any;
     setState: Function;
     constructor(props: any);
+    static propTypes: any;
   }
   function createElement(...args:any[]): any;
   var PropTypes : any;
