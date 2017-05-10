@@ -13,11 +13,13 @@ declare namespace React {
     constructor(props: any);
     static propTypes: any;
     static defaultProps: any;
+    refs: any;
   }
 
   export class PureComponent extends Component {}
 
   function createElement(...args:any[]): any;
+  function cloneElement(...args:any[]): any;
   var PropTypes: any;
   var Children: any;
 }
