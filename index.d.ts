@@ -6,18 +6,18 @@ export = React;
 export as namespace React;
 
 declare namespace React {
-  export class Component extends PureComponent {
+  export class Component {
     state: any;
     setState: Function;
-  }
-
-  export class PureComponent {
     props: any;
     constructor(props: any);
     static propTypes: any;
     static defaultProps: any;
   }
 
+  export class PureComponent extends Component {}
+
   function createElement(...args:any[]): any;
-  var PropTypes : any;
+  var PropTypes: any;
+  var Children: any;
 }
