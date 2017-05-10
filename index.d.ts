@@ -14,6 +14,13 @@ declare namespace React {
     static propTypes: any;
     static defaultProps: any;
   }
+  export class PureComponent {
+    props: any;
+    constructor(props: any);
+    static propTypes: any;
+    static defaultProps: any;
+  }
+
   function createElement(...args:any[]): any;
   var PropTypes : any;
 }
