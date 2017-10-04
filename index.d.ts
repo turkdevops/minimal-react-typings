@@ -21,6 +21,7 @@ declare namespace React {
   export class PureComponent extends Component {}
 
   function createElement(...args:any[]): any;
+  function cloneElement(element: any, props?: Props, ...children: any[]): any
 
   var Children: ReactChildren;
   var PropTypes: ReactPropTypes;
