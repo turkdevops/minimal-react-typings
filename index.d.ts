@@ -9,10 +9,12 @@ declare namespace React {
   type Props = {[key: string]: any};
   type State = Props;
   type Context = Props;
+  type Refs = Props;
 
   export class Component {
     context: Context;
     props: Props;
+    refs: Refs;
     state: State;
     setState: (partialState: State, cb?: Function) => void;
     constructor(props: Props, context?: Context);
