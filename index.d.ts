@@ -27,6 +27,7 @@ declare namespace React {
   function cloneElement(element: any, props?: Props, ...children: any[]): any
 
   var Children: ReactChildren;
+  const Fragment: any;
   var PropTypes: ReactPropTypes;
 
 
