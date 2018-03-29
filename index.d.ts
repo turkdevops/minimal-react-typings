@@ -17,6 +17,7 @@ declare namespace React {
     refs: Refs;
     state: State;
     setState: (partialState: State, cb?: Function) => void;
+    forceUpdate(callBack?: () => void): void;
     constructor(props: Props, context?: Context);
   }
 
