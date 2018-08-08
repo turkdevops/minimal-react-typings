@@ -2,6 +2,8 @@
 // Type definitions for React v0.14
 // Project: http://facebook.github.io/react/
 
+import * as PropTypes from "prop-types";
+
 export = React;
 export as namespace React;
 
@@ -29,6 +31,16 @@ declare namespace React {
 
   var Children: ReactChildren;
   const Fragment: any;
+
+  type Key = string | number;
+
+  interface ReactElement<P> {
+    type: any;
+    props: P;
+    key: Key | null;
+  }
+
+  type ReactNode = any;
 
   //
   // React.Children
