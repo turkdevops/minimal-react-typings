@@ -2,8 +2,6 @@
 // Type definitions for React v0.14
 // Project: http://facebook.github.io/react/
 
-import * as PropTypes from "prop-types";
-
 export = React;
 export as namespace React;
 
